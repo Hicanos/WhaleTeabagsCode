@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef4f9772dfad49a9a99e18746f298, type: 3}
+  m_Name: Jaysilan_SO
+  m_EditorClassIdentifier: 
+  key: 7
+  charID: Char_7
+  nameKr: "\uC81C\uC774\uC2E4\uB780"
+  nameEn: Jaysilan
+  classType: 1
+  RoleIcons: {fileID: 21300000, guid: ac0b3ba0055ceaa4cb7c25e27e8f97da, type: 3}
+  baseATK: 21
+  plusATK: 3
+  baseDEF: 18
+  plusDEF: 2
+  baseHP: 300
+  plusHP: 50
+  critChance: 0.2
+  critDamage: 1.5
+  penetration: 0
+  elementDMG: 1.25
+  elementType: 3
+  elementIcon: {fileID: 21300000, guid: 6bd1dda4d79d45349b3039b75f7703e0, type: 3}
+  description: "\uBBF8\uAD81\uC758 \uBE44\uBC00\uC744 \uD0D0\uAD6C\uD558\uB294 \uC6B4\uC774
+    \uC88B\uC740 \uACE0\uACE0\uD559\uC790"
+  dialog1: "\uC774\uAC74 \uC4F8\uB9CC\uD558\uACA0\uB294 \uB370? \uC5F0\uAD6C \uAC00\uCE58\uAC00
+    \uCDA9\uBD84\uD574."
+  dialog2: "\uC774 \uBBF8\uAD81\uC5D0\uB294 \uBB34\uD55C\uD55C \uAC00\uB2A5\uC131\uC774
+    \uC228\uACA8\uC788\uC2B5\uB2C8\uB2E4. \uC544\uC9C1 \uCC3E\uC9C0 \uBABB\uD588\uC744
+    \uBFD0."
+  activeSkillID: Skill_15
+  activeSO: {fileID: 11400000, guid: 8be6155db40eb4a47be5aee436a5e5a6, type: 2}
+  passiveSkillID: Skill_16
+  passiveSO: {fileID: 11400000, guid: c8e0b929bc3ade540a8fa4c20885c90b, type: 2}
+  diceID: Dice_7
+  charBattlePrefab: {fileID: 5030521768471621161, guid: 36535d92135085e4a85e55207846ce86, type: 3}
+  charDiceData:
+    Key: 7
+    DiceID: Dice_7
+    NameKr: "\uACE0\uB300\uC758 \uC8FC\uC0AC\uC704"
+    NameEn: Ancient Dice
+    CignatureNo: 4
+    CignatureFace: Dice_F2
+    CFace1: 0
+    CFace2: 0
+    CFace3: 0
+    CFace4: 0
+    CFace5: 0
+    CFace6: 0
+    FaceProbability1: 16
+    FaceProbability2: 16
+    FaceProbability3: 16
+    FaceProbability4: 20
+    FaceProbability5: 16
+    FaceProbability6: 16
+    Description: "\uC78A\uD600\uC9C4 \uACE0\uB300\uC758 \uAE30\uC220\uB4E4\uC744
+      \uC870\uC791\uD558\uB294 \uD575\uC2EC \uCF54\uC5B4 \uC5ED\uD560\uC744 \uD558\uB294
+      \uC8FC\uC0AC\uC704"
+  charDicePrefab: {fileID: 7480525804154556286, guid: 1188784309441754facd90c927a6173d, type: 3}
+  DiceNumIcon: {fileID: 21300000, guid: e8ec474fafac06e459f1995f45fa891a, type: 3}
+  icon: {fileID: 21300000, guid: dc685f8632a76f94d92079483363988a, type: 3}
+  Upper: {fileID: 21300000, guid: 7477469bebb1f2048b6ec4c4b93a39c3, type: 3}
+  Standing: {fileID: 21300000, guid: 82210f73e4446634eab556b19c5c7759, type: 3}
+  BackGroundIcon: {fileID: 21300000, guid: 39864f2d44ee549ea89a963f4ec17d4c, type: 3}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa758e57b1f2b148b0cd4ff52f70429, type: 3}
+  m_Name: Skill_5_SO
+  m_EditorClassIdentifier: 
+  SkillID: Skill_5
+  SkillNameKr: "\uBC29\uD328 \uB300\uD615"
+  SkillNameEn: Shield Formation
+  SkillType: 0
+  SkillRule: 0
+  SkillTarget: 2
+  SkillDescription: "\uC544\uAD70 \uC804\uCCB4 \uC2DC\uC804\uC790 \uCD5C\uB300 \uCCB4\uB825
+    * {SkillValue}\uB9CC\uD07C \uBCF4\uD638\uB9C9 \uBD80\uC5EC"
+  SkillIcon: {fileID: 21300000, guid: b0dd3996d9d04e442ba94930c5c6036d, type: 3}
+  SkillValue: 0
+  PlusSkillValue: 0
+  BuffValue: 0.2
+  PlusBuffValue: 0.1
+  BuffProbability: 100
+  PlusBuffProbability: 0
+  BuffTurn: 1
+  CoolTime: 1
+  SkillCost: 5
+  BuffIDs:
+  - Buff_9
+  - None

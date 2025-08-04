@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef4f9772dfad49a9a99e18746f298, type: 3}
+  m_Name: Kruger_SO
+  m_EditorClassIdentifier: 
+  key: 2
+  charID: Char_2
+  nameKr: "\uD06C\uB8E8\uAC70"
+  nameEn: Kruger
+  classType: 1
+  RoleIcons: {fileID: 21300000, guid: ac0b3ba0055ceaa4cb7c25e27e8f97da, type: 3}
+  baseATK: 23
+  plusATK: 3
+  baseDEF: 15
+  plusDEF: 2
+  baseHP: 350
+  plusHP: 50
+  critChance: 0.25
+  critDamage: 1.5
+  penetration: 0
+  elementDMG: 1.25
+  elementType: 2
+  elementIcon: {fileID: 21300000, guid: 8d471a65486ad75408645a5d1cb17897, type: 3}
+  description: "\uB178\uB828\uD558\uACE0 \uC2E4\uB825\uC788\uB294 \uC804\uC9C1 \uC6A9\uBCD1
+    \uB2E8\uC7A5"
+  dialog1: "\uC9D1\uC911\uD574\uB77C, \uC544\uC9C1 \uB05D\uB098\uC9C0 \uC54A\uC558\uB2E4."
+  dialog2: "\uC774\uAE4C\uC9D3 \uBBF8\uAD81\uB530\uC704 \uC774 \uBAB8 \uC55E\uC5D0\uC11C\uB294
+    \uBCC4\uAC70 \uC544\uB2C8\uC9C0."
+  activeSkillID: Skill_5
+  activeSO: {fileID: 11400000, guid: 077447f62b3ac524cab0b87bc762a3f5, type: 2}
+  passiveSkillID: Skill_6
+  passiveSO: {fileID: 11400000, guid: 726d7dcf66609dc4697c42b78f73b30a, type: 2}
+  diceID: Dice_2
+  charBattlePrefab: {fileID: 8340534563148662260, guid: 961f17cf4f9c3584ea9782c55db36d90, type: 3}
+  charDiceData:
+    Key: 2
+    DiceID: Dice_2
+    NameKr: "\uCCA0\uD608\uC758 \uC8FC\uC0AC\uC704"
+    NameEn: Ironblood Dice
+    CignatureNo: 5
+    CignatureFace: Dice_F5
+    CFace1: 0
+    CFace2: 0
+    CFace3: 0
+    CFace4: 0
+    CFace5: 0
+    CFace6: 0
+    FaceProbability1: 16
+    FaceProbability2: 16
+    FaceProbability3: 16
+    FaceProbability4: 16
+    FaceProbability5: 20
+    FaceProbability6: 16
+    Description: "\uD53C\uB85C \uC774\uB8E8\uC5B4\uC9C4 \uB05D\uC5C6\uB294 \uC804\uD22C\uB9CC\uC774
+      \uAC15\uCCA0 \uAC19\uC740 \uD798\uC744 \uAC00\uC9C8 \uC218 \uC788\uB2E4."
+  charDicePrefab: {fileID: 7480525804154556286, guid: 062c7a4b1bb5b5540b2cfedc5e76baae, type: 3}
+  DiceNumIcon: {fileID: 21300000, guid: dd66a9fc84d0d5d49840704e3bcfdc4e, type: 3}
+  icon: {fileID: 21300000, guid: 824304c42444ffa478b701f4573b5f2e, type: 3}
+  Upper: {fileID: 21300000, guid: 2348198ff5a52b04ab223b7e890dba6b, type: 3}
+  Standing: {fileID: 21300000, guid: 64c4a5ce5b31b8347be988ea0ae504a5, type: 3}
+  BackGroundIcon: {fileID: 21300000, guid: 19988788463c34c0999d4093280da81c, type: 3}

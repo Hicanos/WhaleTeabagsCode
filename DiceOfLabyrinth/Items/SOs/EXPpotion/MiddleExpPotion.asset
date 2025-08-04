@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9565ce12dbf47a1449fdb6327c5c31da, type: 3}
+  m_Name: MiddleExpPotion
+  m_EditorClassIdentifier: 
+  ItemID: Item_2
+  NameKr: "\uC911\uAE09 \uACBD\uD5D8\uCE58 \uD3EC\uC158"
+  NameEn: Middle Exp Potion
+  Icon: {fileID: 21300000, guid: b014a6f545b82484fb3b9199123460a1, type: 3}
+  Description: "\uCE90\uB9AD\uD130 \uACBD\uD5D8\uCE58\uB97C 5000 \uC0C1\uC2B9\uC2DC\uD0A4\uB294
+    \uC18C\uBAA8 \uC544\uC774\uD15C\r"
+  Type: 0
+  Rarity: 0
+  LootType: 1
+  IsStackable: 1
+  MaxStackSize: 100000
+  ExpAmount: 5000

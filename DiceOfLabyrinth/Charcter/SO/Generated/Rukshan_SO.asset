@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef4f9772dfad49a9a99e18746f298, type: 3}
+  m_Name: Rukshan_SO
+  m_EditorClassIdentifier: 
+  key: 5
+  charID: Char_5
+  nameKr: "\uB8E8\uD06C\uC0E8"
+  nameEn: Rukshan
+  classType: 0
+  RoleIcons: {fileID: 21300000, guid: d99b89bb65e043b44a9e800734774112, type: 3}
+  baseATK: 29
+  plusATK: 4
+  baseDEF: 10
+  plusDEF: 1
+  baseHP: 250
+  plusHP: 25
+  critChance: 0.3
+  critDamage: 1.5
+  penetration: 0
+  elementDMG: 1.25
+  elementType: 3
+  elementIcon: {fileID: 21300000, guid: 6bd1dda4d79d45349b3039b75f7703e0, type: 3}
+  description: "\uBCF5\uC218\uB97C \uC704\uD574 \uC6C0\uC9C1\uC774\uB294 \uC0AC\uB9C9
+    \uBD80\uC871\uC758 \uC804\uC0AC"
+  dialog1: "\uC774\uC81C \uC880 \uBAB8\uC774 \uD480\uB9B0 \uAC83 \uAC19\uC740\uB370?"
+  dialog2: "\uD55C\uD310 \uBD99\uC744\uAE4C? \uB09C \uAC78\uC5B4\uC628 \uC2F8\uC6C0\uC740
+    \uD53C\uD558\uC9C0 \uC54A\uB294 \uD0C0\uC785\uC774\uAC70\uB4E0."
+  activeSkillID: Skill_11
+  activeSO: {fileID: 11400000, guid: 8d2bc3ff82a90854fa929552d00e3d4a, type: 2}
+  passiveSkillID: Skill_12
+  passiveSO: {fileID: 11400000, guid: d56a3f44df0b1484d8a52887125dc66a, type: 2}
+  diceID: Dice_5
+  charBattlePrefab: {fileID: 5030521768471621161, guid: b1006cfc61c53af4f89097147f08f598, type: 3}
+  charDiceData:
+    Key: 5
+    DiceID: Dice_5
+    NameKr: "\uC804\uAD11\uC11D\uD654\uC758 \uC8FC\uC0AC\uC704"
+    NameEn: Flash Dice
+    CignatureNo: 6
+    CignatureFace: Dice_F6
+    CFace1: 0
+    CFace2: 0
+    CFace3: 0
+    CFace4: 0
+    CFace5: 0
+    CFace6: 0
+    FaceProbability1: 16
+    FaceProbability2: 16
+    FaceProbability3: 16
+    FaceProbability4: 16
+    FaceProbability5: 16
+    FaceProbability6: 20
+    Description: "\uC2DC\uAC04\uC744 \uAC00\uC18D\uD558\uB294 \uAC83 \uAC19\uC740
+      \uC2E0\uC18D\uD55C \uC6C0\uC9C1\uC784\uACFC \uD310\uB2E8\uC744 \uAC00\uB2A5\uD558\uAC8C
+      \uD574\uC8FC\uB294 \uC8FC\uC0AC\uC704"
+  charDicePrefab: {fileID: 7480525804154556286, guid: 8a121e38f4afdfe4fb39544e1b748dd2, type: 3}
+  DiceNumIcon: {fileID: 21300000, guid: 589c3450176f53649bdc1567422788a9, type: 3}
+  icon: {fileID: 21300000, guid: cd39e34853f4d3a49aa8d770c657ca9e, type: 3}
+  Upper: {fileID: 21300000, guid: efdf855f1ba0f8a49a53c9d6b89f0403, type: 3}
+  Standing: {fileID: 21300000, guid: 7672444784860284e87307df3d24ca75, type: 3}
+  BackGroundIcon: {fileID: 21300000, guid: 39864f2d44ee549ea89a963f4ec17d4c, type: 3}

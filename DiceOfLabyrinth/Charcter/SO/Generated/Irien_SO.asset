@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef4f9772dfad49a9a99e18746f298, type: 3}
+  m_Name: Irien_SO
+  m_EditorClassIdentifier: 
+  key: 1
+  charID: Char_1
+  nameKr: "\uC774\uB9AC\uC5D4"
+  nameEn: Irien
+  classType: 0
+  RoleIcons: {fileID: 21300000, guid: d99b89bb65e043b44a9e800734774112, type: 3}
+  baseATK: 28
+  plusATK: 4
+  baseDEF: 9
+  plusDEF: 1
+  baseHP: 275
+  plusHP: 25
+  critChance: 0.3
+  critDamage: 1.5
+  penetration: 0
+  elementDMG: 1.25
+  elementType: 1
+  elementIcon: {fileID: 21300000, guid: c3f7ebbc061cab34aa51cb6997c040ad, type: 3}
+  description: "\uC138\uACC4\uC218\uC758 \uC120\uD0DD\uC744 \uBC1B\uC740 \uC544\uC774"
+  dialog1: "\uBC31\uBC1C\uBC31\uC911~ \uBCF4\uC774\uC8E0? \uC81C \uC2E4\uB825\uC774!"
+  dialog2: "\uC791\uB2E4\uACE0 \uB180\uB9AC\uC9C0\uB9C8\uC138\uC694. \uC800\uB294
+    560\uC0B4\uC774\uB77C\uAD6C\uC694!"
+  activeSkillID: Skill_3
+  activeSO: {fileID: 11400000, guid: bb2f3d769e459294393b0994420b33a1, type: 2}
+  passiveSkillID: Skill_4
+  passiveSO: {fileID: 11400000, guid: 15d86177919f25a4d9b03bc21d473680, type: 2}
+  diceID: Dice_1
+  charBattlePrefab: {fileID: 2730336693368493821, guid: 9165f94c754ae4b4dbb1aeba1e691d96, type: 3}
+  charDiceData:
+    Key: 1
+    DiceID: Dice_1
+    NameKr: "\uC138\uACC4\uC218 \uC8FC\uC0AC\uC704"
+    NameEn: World Tree Dice
+    CignatureNo: 4
+    CignatureFace: Dice_F4
+    CFace1: 0
+    CFace2: 0
+    CFace3: 0
+    CFace4: 0
+    CFace5: 0
+    CFace6: 0
+    FaceProbability1: 16
+    FaceProbability2: 16
+    FaceProbability3: 16
+    FaceProbability4: 20
+    FaceProbability5: 16
+    FaceProbability6: 16
+    Description: "\uC138\uACC4\uC218\uC758 \uAC00\uC9C0\uB85C \uB9CC\uB4E4\uC5B4\uC9C4
+      \uC8FC\uC0AC\uC704\uB85C \uC120\uD0DD\uBC1B\uC740 \uC790\uB9CC\uC774 \uC0AC\uC6A9\uD560
+      \uC218 \uC788\uB2E4."
+  charDicePrefab: {fileID: 7480525804154556286, guid: 07f895284945ed7489d47430f696ff78, type: 3}
+  DiceNumIcon: {fileID: 21300000, guid: e8ec474fafac06e459f1995f45fa891a, type: 3}
+  icon: {fileID: 21300000, guid: 3bd50cf998dec9c4db6b86c4ed60a55c, type: 3}
+  Upper: {fileID: 21300000, guid: 71991433c5ad7f146be206412fdf79e6, type: 3}
+  Standing: {fileID: 21300000, guid: 419a655b72fd9c141a7c89a94bf76f8f, type: 3}
+  BackGroundIcon: {fileID: 21300000, guid: b583d3f7c377340e7a120511d0060682, type: 3}

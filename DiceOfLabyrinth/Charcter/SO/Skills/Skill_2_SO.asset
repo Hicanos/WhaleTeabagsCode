@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324de23dde80b744a938fcd8d8d39fd2, type: 3}
+  m_Name: Skill_2_SO
+  m_EditorClassIdentifier: 
+  SkillID: Skill_2
+  SkillNameKr: "\uD53C\uB2C9\uC2A4 \uD558\uD2B8"
+  SkillNameEn: Phoenix Heart
+  SkillType: 1
+  SkillRule: 1
+  SkillTarget: 0
+  SkillDescription: "\uC790\uC2E0\uC5D0\uAC8C {Buff_Value} * {Buff_ValueS} \uBCF4\uD638\uB9C9
+    \uBC84\uD504\uB97C 1\uD134\uAC04 \uBD80\uC5EC"
+  SkillIcon: {fileID: 21300000, guid: 8a79bda64c15efa47b5ffbed4ab31439, type: 3}
+  SkillValue: 0
+  PlusSkillValue: 0
+  BuffValue: 0.2
+  PlusBuffValue: 0.1
+  BuffProbability: 100
+  PlusBuffProbability: 0
+  BuffTurn: 2
+  CoolTime: 0
+  BuffIDs:
+  - Buff_9
+  - None

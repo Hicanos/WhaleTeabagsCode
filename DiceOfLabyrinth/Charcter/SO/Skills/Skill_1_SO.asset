@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa758e57b1f2b148b0cd4ff52f70429, type: 3}
+  m_Name: Skill_1_SO
+  m_EditorClassIdentifier: 
+  SkillID: Skill_1
+  SkillNameKr: "\uD30C\uC774\uC5B4 \uBE14\uB798\uC2A4\uD2B8"
+  SkillNameEn: Fire Blast
+  SkillType: 0
+  SkillRule: 0
+  SkillTarget: 1
+  SkillDescription: "\uCE90\uB9AD\uD130 \uACF5\uACA9\uB825 * {Skill_Value} \uAC12
+    \uB9CC\uD07C \uC801\uC5D0\uAC8C \uD53C\uD574 + \uD654\uC0C1 \uB514\uBC84\uD504
+    {Buff_Probability}% \uD655\uB960\uB85C \uC801\uC6A9"
+  SkillIcon: {fileID: 21300000, guid: 437c553712a82fd488120815234b2c5a, type: 3}
+  SkillValue: 3.5
+  PlusSkillValue: 0.5
+  BuffValue: 0.1
+  PlusBuffValue: 0.1
+  BuffProbability: 45
+  PlusBuffProbability: 10
+  BuffTurn: 2
+  CoolTime: 1
+  SkillCost: 4
+  BuffIDs:
+  - Buff_14
+  - None

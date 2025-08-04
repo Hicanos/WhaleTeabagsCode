@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324de23dde80b744a938fcd8d8d39fd2, type: 3}
+  m_Name: Skill_8_SO
+  m_EditorClassIdentifier: 
+  SkillID: Skill_8
+  SkillNameKr: "\uAD11\uB780"
+  SkillNameEn: Frenzy
+  SkillType: 1
+  SkillRule: 3
+  SkillTarget: 0
+  SkillDescription: "\uC790\uC2E0\uC5D0\uAC8C \uACF5\uACA9\uB825 \uC99D\uAC00 \uBC84\uD504
+    \uC801\uC6A9 \uD6C4 \uAC1C\uBCC4 \uACF5\uACA9 1\uD68C \uCD94\uAC00 \uACF5\uACA9"
+  SkillIcon: {fileID: 21300000, guid: d7b26a9e197f84c4cb7efeadf796f28e, type: 3}
+  SkillValue: 0
+  PlusSkillValue: 0
+  BuffValue: 0.2
+  PlusBuffValue: 0.1
+  BuffProbability: 100
+  PlusBuffProbability: 0
+  BuffTurn: 1
+  CoolTime: 0
+  BuffIDs:
+  - Buff_1
+  - None

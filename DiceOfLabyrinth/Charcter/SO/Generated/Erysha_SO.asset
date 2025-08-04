@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef4f9772dfad49a9a99e18746f298, type: 3}
+  m_Name: Erysha_SO
+  m_EditorClassIdentifier: 
+  key: 0
+  charID: Char_0
+  nameKr: "\uC5D0\uB9AC\uC0E4"
+  nameEn: Erysha
+  classType: 0
+  RoleIcons: {fileID: 21300000, guid: d99b89bb65e043b44a9e800734774112, type: 3}
+  baseATK: 31
+  plusATK: 4
+  baseDEF: 10
+  plusDEF: 1
+  baseHP: 250
+  plusHP: 25
+  critChance: 0.25
+  critDamage: 1.5
+  penetration: 0
+  elementDMG: 1.25
+  elementType: 0
+  elementIcon: {fileID: 21300000, guid: afe19921014b17c42af4069a781a1a4e, type: 3}
+  description: "\uD654\uC5FC \uB9C8\uD0D1 \uCD9C\uC2E0\uC758 \uCCAB \uBAA8\uD5D8\uC744
+    \uB5A0\uB098\uB294 \uADC0\uC871\uAC00 \uC601\uC560"
+  dialog1: "\uBD88\uC0C8\uC5EC, \uB0A0\uC544\uC62C\uB77C\uB77C!"
+  dialog2: "\uD765\uBBF8\uB86D\uAD70\uC694. \uD3C9\uBBFC\uB4E4\uC758 \uC0DD\uD65C
+    \uBC29\uC2DD\u2026 \uC9C1\uC811 \uBCF4\uBA74 \uC774\uB807\uAC8C \uB2E4\uB978\uAC00\uC694?"
+  activeSkillID: Skill_1
+  activeSO: {fileID: 11400000, guid: 0168fbd83b572204db1bef9c9694deb6, type: 2}
+  passiveSkillID: Skill_2
+  passiveSO: {fileID: 11400000, guid: 6456c546681a497409a467c8e4999f33, type: 2}
+  diceID: Dice_0
+  charBattlePrefab: {fileID: 189010378810125677, guid: 3ce8dd797e516324fb00e58318652f05, type: 3}
+  charDiceData:
+    Key: 0
+    DiceID: Dice_0
+    NameKr: "\uD53C\uB2C9\uC2A4 \uC8FC\uC0AC\uC704"
+    NameEn: Phoenix Dice
+    CignatureNo: 1
+    CignatureFace: Dice_F1
+    CFace1: 0
+    CFace2: 0
+    CFace3: 0
+    CFace4: 0
+    CFace5: 0
+    CFace6: 0
+    FaceProbability1: 20
+    FaceProbability2: 16
+    FaceProbability3: 16
+    FaceProbability4: 16
+    FaceProbability5: 16
+    FaceProbability6: 16
+    Description: "\uC655\uAD6D\uC758 \uAC74\uAD6D \uC2DC\uCD08 \uB54C\uBD80\uD130
+      \uB0B4\uB824\uC624\uB358 \uAC00\uBCF4\uB85C \uC601\uBB3C \uD53C\uB2C9\uC2A4\uC758
+      \uD798\uC774 \uB2F4\uAE34 \uC8FC\uC0AC\uC704"
+  charDicePrefab: {fileID: 7480525804154556286, guid: 9ed2ec6a790ea2841b0b985f08fcfdcd, type: 3}
+  DiceNumIcon: {fileID: 21300000, guid: 4a4725c6ad58cf54a9c01b02da8946f5, type: 3}
+  icon: {fileID: 21300000, guid: 0e9a582b81f92f14caca8aa040996d6b, type: 3}
+  Upper: {fileID: 21300000, guid: f42074f070a35c04b859d4faf19de05c, type: 3}
+  Standing: {fileID: 21300000, guid: e2ca6fbad716b5949bded35aa9edc78a, type: 3}
+  BackGroundIcon: {fileID: 21300000, guid: 0fb7fe31dd136442998f3483b2044445, type: 3}
